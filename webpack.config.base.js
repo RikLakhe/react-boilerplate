@@ -25,7 +25,10 @@ module.exports = {
                 use: [
                     'style-loader', 'css-loader'
                 ]
-            }
+            },{
+                test: /\.(jpe?g|png|gif|svg)$/i,
+                loader: 'file-loader',
+              } 
         ]
     },
     plugins: [new HtmlWebpackPlugin({template: './src/index.html'})]

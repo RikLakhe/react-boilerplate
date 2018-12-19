@@ -7,16 +7,17 @@
   border-radius: 5px;
   background: white;
   /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
-  font-size: 10px;
+  font-size: 11px;
 }
-
+/* div{
+  border: 0.25px solid red;
+} */
 .subpage {
   /* padding: 1cm; */
   /* border: 5px red solid; */
   /* height: 256mm; */
   /* outline: 2cm #FFEAEA solid; */
 }
-
 @page {
   size: A4;
   margin: 0;
@@ -37,10 +38,86 @@
 
 .page .subpage{
   padding-left : 10px;
+  padding-top:5px;
   
 }
 
 .page .subpage .top-middle-content{
   weidth:40px;
   text-align:center;
+}
+.content{
+  width: 19cm;
+  padding-left:36px;
+}
+
+.content .top-header .top-header-top{
+  display:flex;
+  justify-content:space-between;
+  align-items:baseline;
+  
+}
+
+.content .top-header .top-header-bottom{
+  display:flex;
+  justify-content:space-between;
+  
+}
+tr td{
+  /* padding: 2px !important;
+  margin: 0 !important; */
+  vertical-align: middle !important;
+}
+table{
+  padding:0px;
+  
+  border-spacing:0px;
+  width: 100%
+}
+
+/* .side-padding{
+  margin:10px;
+} */
+
+.table-first-row{
+  height:20px;
+  justify-items: baseline
+}
+.custom-data{
+  width: 12cm;
+  /* font-size: 12px; */
+}
+.customer-enter-data{
+  width:8cm;
+  height:2px;
+}
+.customer-enter{
+  width:3.5cm;
+}
+
+.transactio-data{
+  width:7cm;
+  text-align: right;
+  font-size: 15px;
+}
+
+.transfer-amount-value{
+  text-align: right;
+}
+
+.collect-amount{
+  font-size: 13px;
+}
+
+
+
+.table-bottom-content{
+  text-align: center;
+}
+
+.signature{
+  height:30px;
+  padding-top:18px;
+  margin-bottom:10px;
+  text-align: center;
 }
